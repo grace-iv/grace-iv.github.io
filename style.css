@@ -1,0 +1,81 @@
+.navbar-brand {
+  letter-spacing: 3px;
+  color: #c24244;
+}
+
+.navbar-brand:hover {
+  color: #c24244;
+}
+
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars {
+  color: #7f4722;
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars {
+  color: #7f4722;
+}
+
+.navbar-scrolled {
+  background-color: #ffede7;
+}
+
+.dots {
+  display: flex;
+  justify-content:baseline;
+  margin: 10px
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    height: 50vh;
+    display:flexbox;
+    justify-content: top;
+    align-items: top;
+}
+
+.slider {
+    position:relative;
+    width: 80%;
+    overflow:hidden;
+}
+.images {
+    display: flex;
+    width: 100%;
+}
+  
+
+.images img{
+    height:308px;
+    width: 1000%;   
+    transition: all 0.15s ease; 
+
+.dots{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.dots label {
+    height: 20px;
+    width: 20px;
+  border-radius: 50%;
+  border:solid #fff 3px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+ margin: 5px;
+}
+.dots label:hover {background: #fff;}
+  
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+      margin-left: -100%;
+  }
+
+  
