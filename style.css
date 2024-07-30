@@ -1,4 +1,4 @@
-.navbar-brand {
+g.navbar-brand {
   letter-spacing: 3px;
   color: #c24244;
 }
@@ -21,61 +21,76 @@
   background-color: #ffede7;
 }
 
-.dots {
-  display: flex;
-  justify-content:baseline;
-  margin: 10px
-}
-
-*{
-  box-sizing: border-box;
+body{
   margin: 0;
-  padding: 0;
+  font-family: monospace;
 }
-body {
-    height: 50vh;
-    display:flexbox;
-    justify-content: top;
-    align-items: top;
-}
-
-.slider {
-    position:relative;
-    width: 80%;
-    overflow:hidden;
-}
-.images {
-    display: flex;
-    width: 100%;
-}
-  
-
-.images img{
-    height:308px;
-    width: 1000%;   
-    transition: all 0.15s ease; 
-
-.dots{
-  display: flex;
-  justify-content: center;
-  margin: 5px;
-}
-.dots label {
-    height: 20px;
-    width: 20px;
-  border-radius: 50%;
-  border:solid #fff 3px;
-  cursor: pointer;
-  transition: all 0.15s ease;
- margin: 5px;
-}
-.dots label:hover {background: #fff;}
-  
-#img1:checked ~ .m1 {
-    margin-left: 0;
-}
-#img2:checked ~ .m2 {
-      margin-left: -100%;
+.slider{
+  width: 1000px;
+  max-width: 100vw;
+  height: 700px;
+  margin: auto;
+  position: relative;
   }
+.List{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  width: max-content;
+}
+.list img{
+  width: 1300px;
+  max-width: 100vw;
+  height: 100%;
+  object-fit: cover; 
+}
+.buttons{
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  width:90%;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons button{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffede7;
+  color: #fff;
+  border: none;
+  font-family: monospace;
+  font-weight: bold;
+}
 
-  
+
+
+img.m2 {
+  width: 30%;
+  height: 40%;
+  margin: 50px;
+  padding: 10px;
+}
+
+  img.m3 {
+   width: 30%;
+    height: 40%;
+    margin: 10px;
+  padding: 10px}
+img.m4 {
+ width: 20%;
+  height: 70%;
+  margin: 10px;
+padding: 10px}
+
+.img_deg
+{
+  float: right
+}
+img.m5 {
+ width: 150%;
+  height: 280%;
+  margin: 10px;
+padding: 10px}
